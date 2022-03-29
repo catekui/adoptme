@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: #a9a16b; */
+}
+.logonav {
+    background-color: rgb(90, 87, 68);
+    
+}
+.logo {
+    height:70px;
+    width: 70px;
+}
+/* unordered list */
+.navcontent{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+.home {
+    background: url('images/slider-img-1.png'), url('images/slider-vector-2-1.png'), url('images/slider-vector-3-1.png');
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 35% 45%, 10% 80%, bottom right;
+    background-size:  330px, 500px, 350px;
+    background-color: rgb(90, 87, 68);
+
+}
+/* buttons */
+#donate1 {
+    border-radius: 6px;
+    height: 50px;
+    font-size: 20px;
+    background-color:  rgb(230, 148, 74);
+    width: 200px;
+    margin-top: 80px;
+
+}
+#donate2 {
+    border-radius: 6px solid white;
+    height: 50px;
+    font-size: 20px;
+    background-color:#a9a16b;
+    width: 200px;
+    margin-top: 80px;
+    font-weight: 500; 
+    margin-left: 20px; 
+
+}
+/* the h1 styling */
+.best {
+    padding-top: 190px;
+    /* letter-spacing: 8px; */
+    font-weight: 500;
+    line-height: 50px;
+    font-size: xx-large;
+}
